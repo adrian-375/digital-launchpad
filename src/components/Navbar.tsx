@@ -8,9 +8,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between px-6 py-3 bg-card/30 backdrop-blur-md rounded-2xl border border-border/30">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-purple to-purple-light rounded-lg flex items-center justify-center">
-              <span className="font-display text-primary-foreground font-bold text-sm">Z</span>
-            </div>
+            <img src="/Z.png" alt="ZynaFlow logo" className="w-8 h-8 rounded-lg" />
             <span className="font-display text-lg font-semibold hidden sm:block">ZynaFlow</span>
           </div>
           

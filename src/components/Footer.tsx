@@ -37,11 +37,11 @@ const Footer = () => {
 
           {/* Email */}
           <a 
-            href="mailto:hello@example.com" 
+            href="mailto:zynaflow@gmail.com" 
             className="inline-flex items-center gap-2 text-muted-foreground hover:text-purple transition-colors duration-300 mb-16"
           >
             <Mail className="w-4 h-4" />
-            hello@example.com
+            zynaflow@gmail.com
           </a>
           
           {/* Divider */}
@@ -50,9 +50,7 @@ const Footer = () => {
           {/* Bottom section */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-purple to-purple-light rounded-lg flex items-center justify-center">
-                <span className="font-display text-primary-foreground font-bold text-sm">Z</span>
-              </div>
+              <img src="/Z.png" alt="ZynaFlow logo" className="w-8 h-8 rounded-lg" />
               <span className="font-display text-lg font-semibold">ZynaFlow</span>
             </div>
             
@@ -67,7 +65,7 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="mailto:hello@example.com" 
+                href="mailto:zynaflow@gmail.com" 
                 className="text-muted-foreground hover:text-purple transition-colors duration-300"
                 aria-label="Email"
               >
